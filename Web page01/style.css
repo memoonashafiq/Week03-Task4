@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fdf9f5;
+    color: #333;
+    text-align: center;
+}
+.services-section{
+    padding: 50px 20px;
+}
+.services-section h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.services-section .blue{
+    color: #2d2a88;
+}
+.services-section .orange{
+    color: #f59e0b;
+}
+.services-section p{
+    max-width: 600px;
+    margin: 0 auto 40px;
+    color: #777;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card{
+    background: white;
+    border-radius: 12px;
+    padding: 30px 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 280px;
+    position: relative;
+}
+.icon-circle{
+    background: #2d2a88;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-circle.orange-bg{
+    background: #f59e0b;
+}
+.icon-circle img{
+    width: 30px;
+    height: 30px;
+}
+.card h3{
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+.card p{
+    font-size: 0.95em;
+    color: #666;
+    margin-bottom: 20px;
+}
+.card button{
+    padding: 10px 20px;
+    border: none;
+    background: orange;
+    border-radius: 5px;
+    cursor: pointer;
+}
